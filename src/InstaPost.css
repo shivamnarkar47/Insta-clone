@@ -1,0 +1,58 @@
+.instaPost {
+  padding-top: 10px;
+  max-width: 1080px;
+
+  border: 1px solid #ebebeb;
+  border-left: 0;
+  border-right: 0;
+}
+.head {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.head img {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 999px;
+}
+
+.head h5 {
+  font-weight: 500;
+}
+.main_feed {
+  width: 100%;
+  max-width: 1080px;
+}
+
+.main_feed img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.social_icons {
+  display: flex;
+  align-items: center;
+}
+
+.social {
+  margin-right: 6px;
+}
+
+.captions {
+  padding: 10px;
+}
+.captions p {
+  color: #808080;
+}
